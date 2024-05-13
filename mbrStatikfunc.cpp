@@ -37,7 +37,7 @@ int main(){
     Mahasiswa mhs1("Lia Kurnia");
     Mahasiswa mhs2("Asroni");
 
-    int Mahasiswa::nim = 9; // mengakses nim melalui static member function "setnim"
+    Mahasiswa::setNim(9); // mengakses nim melalui static member function "setnim"
     Mahasiswa mhs3("Andi Kurniawan");
     Mahasiswa mhs4("Joko Purbo");
 
